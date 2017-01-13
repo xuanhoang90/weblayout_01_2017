@@ -1,0 +1,98 @@
+/* font-family: 'Filosofia';  */
+body, html{margin: 0; padding: 0;font-family: proxima-nova-alt-ext-cond, sans-serif;font-style: normal;font-weight: 12px;}
+.contain{width: 100%; margin: 0; padding: 0;}
+.x-fullwidth{width: 100%; margin: 0; padding: 0; clear: both;}
+.x-fullwidth .init{width: 100%; margin: 0; padding: 0;  clear: both; max-width: 1200px; display: block; margin: 0 auto;}
+
+.header{background: white; z-index: 100; position: static;}
+.header .logo{width: 100%; overflow: hidden;}
+.header .logo img{height: 80px;}
+.header .header-top, .header .header-bottom{display: block; width: 100%; background: white; clear: both;}
+.header .header-top{padding-top: 10px;}
+.header .header-top .search-area{display: inline-block; float: left; position: relative; width: 250px; margin-left: 30px;}
+.header .header-top .search-area .search-submit{display: none;}
+.header .header-top .search-area .text-input{display: block; outline: none; border: none; border-radius: 15px; height: 30px; background: white; width: 100%; box-shadow: inset 0px 0px 10px LightSlateGray; padding: 0 10px; color: LightSlateGray; line-height: 30px; border: 1px solid LightSlateGray; font-size: 12px;}
+.header .header-top .search-area .text-input:hover{background: Gainsboro;}
+.header .header-top .search-area .text-input:focus{background: Gainsboro; color: black;}
+.header .header-top .search-area .search-icon{position: absolute; top: 5px; right: 10px; line-height: 20px; font-size: 13px; color: DarkSlateGray; z-index: 1;}
+.header .header-top .search-area .search-icon:hover{cursor: pointer; color: black;}
+.header .header-top .user-area{display: inline-block; float: right;}
+.header .header-top .user-area .shop-cart, .header .header-top .user-area .show{display: inline-block; margin: 0px 10px;}
+.header .header-top .user-area .show{float: right;}
+.header .header-top .user-area .shop-cart .drop, .header .header-top .user-area .show .drop{display: none;}
+.header .header-top .user-area .shop-cart a, .header .header-top .user-area .show a{display: inline-block; line-height: 30px; margin: 0 10px; font-size: 14px; text-decoration: none; padding: 0; color: DarkSlateGray;}
+.header .header-top .user-area .shop-cart a{font-size: 16px;}
+.header .header-top .user-area .shop-cart a:hover, .header .header-top .user-area .show a:hover{cursor: pointer; color: LightSlateGray;}
+.header .header-bottom .just-small-screen{display: none;}
+.header .header-bottom .main-menu{display: block; margin-bottom: 10px;}
+.header .header-bottom .main-menu .item{display: inline-block; margin: 0;}
+.header .header-bottom .main-menu .item a{display: block; color: LightSlateGray; padding: 0 15px; line-height: 30px; font-size: 13px; font-weight: bold; text-decoration: none; margin: 0; border-bottom: 4px solid transparent;}
+.header .header-bottom .main-menu .item a:hover{color: DarkSlateGray; border-bottom: 4px solid DarkSlateGray;}
+.header .header-bottom .main-menu .item.active a{color: DarkSlateGray; border-bottom: 4px solid DarkSlateGray;}
+.header .header-bottom .main-menu .item .sub-menu{display: none;}
+.slider{background: white; z-index: 1; position: static;}
+.about{padding-bottom: 20px;}
+.about .about-block{display: block; margin: 5px; color: DimGray; font-size: 13px; line-height: 20px;}
+.about .about-block .title{line-height: 25px; margin: 10px 0; font-size: 20px; margin-top: 20px; padding: 0px 10px; margin-top: 5px; text-align: center; font-style: italic;}
+.about .about-block .block-content{line-height: 17px; margin: 5px; font-size: 13px; text-align: justify;}
+.about .about-block .block-content p{line-height: 35px; margin: 5px; font-size: 30px; text-align: center; display: block; font-weight: bold; text-transform: uppercase;}
+.about .about-block .block-content a{text-decoration: none; display: block; margin: 5px auto; line-height: 40px; color: DarkSlateGray; font-size: 14px; width: 100px; text-align: center; background: #d4d4d4;}
+.about .about-block .block-content a:hover{color: white; background: DarkSlateGray;}
+.footer-top{background: LightSlateGray;}
+.footer-top .block-footer{display: block; margin: 5px; color: white; font-size: 13px; line-height: 20px;}
+.footer-top .block-footer .title{line-height: 25px; margin: 10px 0; font-weight: bold; font-size: 25px; margin-top: 20px; padding: 0px 10px;}
+.footer-top .block-footer .content{line-height: 17px; margin: 5px; font-size: 13px; text-align: justify;}
+.footer-top .block-footer .content p{line-height: 20px; margin: 5px; font-size: 13px; text-align: justify; display: block;}
+.footer-top .block-footer .content .social-icon{text-decoration: none; color: white; cursor: pointer; margin: 5px; display: inline-block; line-height: 30px; font-size: 25px;}
+.footer-top .block-footer .content .social-icon:hover{color: MediumTurquoise;}
+.footer-bottom{background: DarkSlateGrey;}
+.footer-bottom .term-of-services{padding: 5px; display: block; padding-left: 10px;}
+.footer-bottom .term-of-services a{cursor: pointer; color: white; text-decoration: none; margin: 0; padding: 0; margin-right: 10px; font-size: 12px; font-weight: normal; line-height: 17px; padding: 3px 0;}
+.footer-bottom .term-of-services a:hover{color: MediumTurquoise;}
+.footer-bottom  p{cursor: pointer; color: white; text-decoration: none; margin: 5px; padding: 0; margin-right: 10px; font-size: 12px; font-weight: normal; line-height: 17px; padding: 3px 0; display: block;}
+.navbar-default{background: none; border: none;  padding: 5px 0!important;}
+.navbar{min-height: auto; margin-bottom: 5px;}
+.navbar-nav a{padding: 5px 25px !important; font-size: 15px !important; font-weight: bold; color: DarkSlateGray; cursor: pointer; border-bottom: 3px solid transparent; line-height: 30px !important;}
+.navbar-nav .active a{background: none !important;}
+.navbar-nav .active a,.navbar-nav a:focus,.navbar-nav a:hover{border-bottom: 3px solid DarkSlateGray;}
+.main-content{background: AliceBlue; padding: 15px 0;}
+.main-content .left-block{display: block; margin: 5px; color: DarkSlateGray; font-size: 13px; line-height: 20px; margin-bottom: 30px;}
+.main-content .left-block .block-header{display: block; clear: both; -webkit-box-shadow: 0 8px 6px -6px black;-moz-box-shadow: 0 8px 6px -6px black;box-shadow: 0 8px 6px -6px black; margin-bottom: 10px;}
+.main-content .left-block .block-header .title{line-height: 30px; margin: 10px 5px; font-size: 25px; margin-top: 20px; padding: 0px; margin-top: 5px; text-align: left; font-weight: bold; display: inline-block;}
+.main-content .left-block .block-header .viewmore{text-decoration: none; display: block; margin: 5px auto; line-height: 40px; color: DarkSlateGray; font-size: 14px; width: 100px; text-align: center; background: transparent; float: right;}
+.main-content .left-block .block-header .viewmore:hover{color: DarkSlateGray; background: transparent; cursor: pointer;}
+.main-content .left-block .block-content{ padding-left: 15px; line-height: 17px; font-size: 13px; text-align: justify;}
+.main-content .left-block .block-content p{line-height: 20px; margin: 5px; font-size: 13px; text-align: justify; display: block;}
+.main-content{background: AliceBlue; padding: 15px 0;}
+.main-content .right-block{display: block; margin: 5px; color: DarkSlateGray; font-size: 13px; line-height: 20px; margin-bottom: 30px;}
+.main-content .right-block .block-header{display: block; clear: both; -webkit-box-shadow: 0 8px 6px -6px black;-moz-box-shadow: 0 8px 6px -6px black;box-shadow: 0 8px 6px -6px black; margin-bottom: 10px;}
+.main-content .right-block .block-header .title{line-height: 30px; margin: 10px 5px; font-size: 25px; margin-top: 20px; padding: 0px; margin-top: 5px; text-align: left; font-weight: bold; display: inline-block;}
+.main-content .right-block .block-header .viewmore{text-decoration: none; display: block; margin: 5px auto; line-height: 40px; color: DarkSlateGray; font-size: 14px; width: 100px; text-align: center; background: transparent; float: right;}
+.main-content .right-block .block-header .viewmore:hover{color: DarkSlateGray; background: transparent; cursor: pointer;}
+.main-content .right-block .block-content{line-height: 17px; margin: 5px; font-size: 13px; text-align: justify;}
+.main-content .right-block .block-content p{line-height: 20px; margin: 5px; font-size: 13px; text-align: justify; display: block;}
+
+.main-content .left-block .block-content .linktocate{position: relative;}
+.main-content .left-block .block-content .linktocate div figure{height: 500px; overflow: hidden; position: relative;}
+.main-content .left-block .block-content .linktocate img{height: 100%;}
+.main-content .left-block .block-content .linktocate .caption{position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: none;}
+.main-content .left-block .block-content .linktocate:hover .caption{display: flex; flex-direction: column; justify-content: center;}
+.main-content .left-block .block-content .linktocate .caption p{color: white; text-align: center; font-size: 16px; line-height: 25px; padding: 5px 15px;}
+.main-content .left-block .block-content .linktocate .caption .viewmore{background: white; color: DarkSlateGray; width: 150px; display: block; margin: 10px auto; text-decoration: none; text-align: center; line-height: 40px; font-size: 18px; cursor: pointer; font-weight: bold;}
+.main-content .left-block .block-content .linktocate .caption .viewmore:hover{color: white; background: DarkSlateGray;}
+
+.main-content .left-block .block-content .product-item{position: relative;}
+.main-content .left-block .block-content .product-item div figure{height: 180px; overflow: hidden; position: relative;}
+.main-content .left-block .block-content .product-item img{width: 90%; display: block; margin: 0px auto;}
+.main-content .left-block .block-content .product-item .caption{position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: none;}
+.main-content .left-block .block-content .product-item:hover .caption{display: flex; flex-direction: column; justify-content: center;}
+.main-content .left-block .block-content .product-item .caption p{color: white; text-align: center; font-size: 16px; line-height: 25px; padding: 5px 15px;}
+.main-content .left-block .block-content .product-item .caption .viewmore{color: white; width: 50px; display: block; margin: 5px auto; text-decoration: none; text-align: center; line-height: 35px; font-size: 15px; cursor: pointer; border-radius: 50%; background: DarkSlateGray;}
+.main-content .left-block .block-content .product-item .caption .viewmore:hover{background: white; color: DarkSlateGray;}
+.main-content .left-block .block-content .product-item .line-1{line-height: 25px; margin: 5px 0; font-size: 17px; text-align: center; font-style: italic; margin-left: 15px;}
+.main-content .left-block .block-content .product-item .line-2{margin: 5px; margin-left: 20px; display: block;}
+.main-content .left-block .block-content .product-item .line-2 .price{color: red; display: inline-block; text-decoration: none; margin: 5px auto; line-height: 25px; color: DarkSlateGray; font-size: 13px; background: transparent;}
+.main-content .left-block .block-content .product-item .line-2 a{text-decoration: none; margin: 5px auto; line-height: 25px; color: DarkSlateGray; font-size: 13px; background: transparent; float: right;}
+.main-content .left-block .block-content .product-item .line-2 a:hover{color: DarkSlateGray; background: transparent; cursor: pointer;}
+
+.x-no-padding{padding-left: 0px !important; padding-right: 0px !important;}
